@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flashcard Generator with AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Flashcard Generator with AI</h1>
+    <form id="flashcard-form">
+      <label for="topic-input">Enter topic or notes:</label>
+      <textarea id="topic-input" rows="4" placeholder="Enter your topic or notes here..." required></textarea>
+      <button type="submit">Generate Flashcards</button>
+    </form>
+    <div id="loading" class="hidden">Generating flashcards...</div>
+    <div id="flashcards-container"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
